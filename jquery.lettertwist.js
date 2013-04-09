@@ -10,11 +10,11 @@
 *
 **/	
 (function($) {
-  $.fn.lettertwist = function(degrees) {
+  $.fn.lettertwist = function(degrees, title, all) {
     if(typeof degrees === 'undefined') { degrees = 15; }
     return this.each(function() {
-    	var title = ($(this).text()).split('');
-    	var all = '';
+    	title = ($(this).text()).split('');
+    	all = '';
     	for(var i in title) {
     		all += "<div style='display: inline-block; padding-right: 5px; -webkit-transform: rotate("+degrees+"deg); -moz-transform: rotate("+degrees+"deg); -o-transform: rotate("+degrees+"deg);'>"+title[i]+"</div>";
     	}
