@@ -5,6 +5,8 @@
 *
 *   Simply -  $(element).lettertwist(20) 
 *   to rotate each letter of that element with 20 degrees.
+*   
+*   Defualt degrees: 15
 *
 **/	
 (function($) {
