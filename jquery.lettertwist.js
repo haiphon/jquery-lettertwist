@@ -13,8 +13,7 @@
   $.fn.lettertwist = function(degrees) {
     if(typeof degrees === 'undefined') { degrees = 15; }
     return this.each(function() {
-    	var title = $(this).text();
-    	title = title.split('');
+    	var title = ($(this).text()).split('');
     	var all = '';
     	for(var i in title) {
     		all += "<div style='display: inline-block; padding-right: 5px; -webkit-transform: rotate("+degrees+"deg); -moz-transform: rotate("+degrees+"deg); -o-transform: rotate("+degrees+"deg);'>"+title[i]+"</div>";
