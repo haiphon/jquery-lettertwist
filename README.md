@@ -16,6 +16,8 @@ Simple lettertwist setup with 20% rotation:
 	});
 </script>
 ```
+## Compatability:
+- Does not work in IE < 9! (No transform CSS supported)
 
 ## In Use:
 - [Barnt & Arnst](http://barntarnst.com)
