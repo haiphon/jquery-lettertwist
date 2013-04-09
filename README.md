@@ -3,8 +3,18 @@ jquery-lettertwist
 
 jQuery plugin to rotate individual letters in text.
 
-Example of use:
+## How to use it
+Simple lettertwist setup with 20% rotation:
 
-$("#mytitle").lettertwist(18);
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery.lettertwist.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#twistme").lettertwist(20);
+	})
+</script>
+```
 
-Rotates mytitle's letters with 18 degrees.
+## In Use:
+- [Barnt & Arnst](http://barntarnst.com)
