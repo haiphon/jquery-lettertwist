@@ -7,4 +7,4 @@ Example of use:
 
 $("#mytitle").lettertwist(18);
 
-Rotates #mytitle's letters with 18 degrees.
+Rotates mytitle's letters with 18 degrees.
