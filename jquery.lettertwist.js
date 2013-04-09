@@ -3,16 +3,13 @@
 *	Lettertwist - jQuery plugin to rotate letters in a text.
 *	by Bärnt & Ärnst 
 *
-*   Simply 
-*       $(element).lettertwist(20) 
+*   Simply -  $(element).lettertwist(20) 
 *   to rotate each letter of that element with 20 degrees.
 *
 **/	
 (function($) {
   $.fn.lettertwist = function(degrees) {
-    if(typeof degrees === 'undefined') {
-        degrees = 15;
-    }
+    if(typeof degrees === 'undefined') { degrees = 15; }
     return this.each(function() {
     	var title = $(this).text();
     	title = title.split('');
