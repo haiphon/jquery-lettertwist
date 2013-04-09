@@ -13,7 +13,7 @@ Simple lettertwist setup with 20% rotation:
 <script>
 	$(document).ready(function() {
 		$("#twistme").lettertwist(20);
-	})
+	});
 </script>
 ```
 
